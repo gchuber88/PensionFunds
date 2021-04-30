@@ -1,5 +1,4 @@
 import pandas as pd
-import pyodbc as sql
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.artist import setp;  
