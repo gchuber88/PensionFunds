@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.artist import setp;  
 
+#data from: https://www.spensiones.cl/apps/valoresCuotaFondo/vcfAFP.php
 df = pd.read_excel("afp_data.xlsx", index_col = 0, header = 0)
 
 plt.close("all")
