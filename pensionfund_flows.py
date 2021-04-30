@@ -36,7 +36,7 @@ df_pos.columns=["Savings","Profitability"]
 df_neg.columns=["Savings","Profitability"]
 fig, ax = plt.subplots()
 ax.plot(M.sum(axis=1),'k')
-ax.set_ylabel('USD (1000)')
+ax.set_ylabel('USD (mm)')
 ax.set_title('Chilean Pension Funds Growth Breakdown')
 df_pos.plot.area(ax=ax, stacked=True, linewidth=0.)
 ax.set_prop_cycle(None)
