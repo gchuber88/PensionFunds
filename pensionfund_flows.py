@@ -43,4 +43,4 @@ ax.set_prop_cycle(None)
 df_neg.rename(columns=lambda x: '_' + x).plot.area(ax=ax, stacked=True, linewidth=0.)
 ax.set_ylim([df_neg.sum(axis=1).min(), df_pos.sum(axis=1).max()])
 plt.tight_layout()
-
+plt.show()
